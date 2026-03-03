@@ -34,3 +34,23 @@ Challenge: Inspect the file tree
 # 2 --- ls
 # 3 --- cd geography_game --- (afterwards) ls (names contents in geography_game)
 # 4 --- clear
+
+---------------------------------------------------------
+
+# RULES OF NAVIGATION
+
+cd .. = # to change the current working directory to its parent directory (the directory one level up) EXAMPLE --- cd ../countries
+
+Challenge: Rules of navigation
+1. Navigate into the directory "forests".
+2. Find the following files:
+    a. "rainforests.txt"
+    c. "large_contries_by_population.txt".
+    d. "capitals.txt"
+3. Clear the terminal from visual clutter.
+
+NB: Make sure to use everything you have learned so far: 'pwd', 'ls', 'cd', '..', and 'clear'.
+
+# 1 --- pwd -- ls -- cd geography_game -- ls
+# 2 --- cd forests -- pwd -- ls - ls .. -- cd .. -- cd ../.. (take 2 levels ups) # looking for files continues...
+# 3 --- clear
