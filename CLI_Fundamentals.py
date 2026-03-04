@@ -111,3 +111,27 @@ Main challenge: Write to files
 4. Open the file in the sidebar to check that everything went well.
 
 Important: Wrap your strings in single quotes.
+
+-----------------------------------------------
+
+# READ FROM FILES
+
+cat = # stands for concatenate and is primarily used to read, display, combine, and manipulate text files. 
+ # EXAMPLE -- cat hello.txt -- # prints Hello World! to terminal
+
+# Redirect Output -- CREATE FILE as well if it does not already exists
+cat hello.txt > hello.copy.txt  
+
+# NOTES NOTED
+> # overwrites
+>> # appends
+ # ECHO vs CAT
+  # echo command is used to display a line of text or string arguments provided directly to it, while the cat command is 
+  # used to read, display, and concatenate the contents of files.
+
+/////////////////////////////////////////
+Challenge: Read from files
+1. Find the file "external_people.txt" and print its contents to the terminal to see what it is.
+2. Read the contents of "external_people.txt" again, but this time, redirect and append it to "team_members.txt".
+3. Print the contents of "team_members.txt" to the terminal to check that everything went well.
+4. Delete "external_people.txt".
