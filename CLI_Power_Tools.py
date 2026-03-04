@@ -15,4 +15,35 @@ Shell
 
  -----------------------------------------------------
 
- 
+ Options
+  # modifiers used with a command to alter its default behavior or customize its actions. They are distinct from arguments, 
+  # which are the inputs the command acts upon.
+
+# Delete a directory
+rm -r [dir_name] 
+
+# List items with detailed info
+ls -l
+
+--------------------------------------------------------
+
+# ASIDE OPTIONS
+
+rm -r [dir_name] # short options
+rm --recursive [dir_name] # long options
+
+--------------------------------------------------------
+
+# TYPES OF OPTIONS
+
+Short Options: # These are single letters preceded by a single hyphen (e.g., -v). They are concise and can often be 
+ # combined (e.g., -la is the same as -l -a in many Unix-like systems).
+Long Options: # These use descriptive keywords preceded by two hyphens (e.g., --verbose or --version). 
+# They are easier to read and understand, especially in scripts.
+Options with Values: # Many options require an additional value, such as a number or a path. For short options, 
+# the value can immediately follow the option letter or be separated by a space (e.g., -h localhost or -hlocalhost), while long options often use an equal sign (e.g., --host=localhost).
+Boolean Flags: # Some options act as simple on/off switches without an associated value (e.g., --force or --ignore-hold).
+System-Specific Variations: # While Unix-based systems (Linux, macOS) primarily use hyphens, some Windows command-line tools 
+# might use a forward slash (/) instead (e.g., /S for silent install).
+
+------------------------------------------------------------
