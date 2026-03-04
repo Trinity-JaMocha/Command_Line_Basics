@@ -47,3 +47,24 @@ System-Specific Variations: # While Unix-based systems (Linux, macOS) primarily 
 # might use a forward slash (/) instead (e.g., /S for silent install).
 
 ------------------------------------------------------------
+
+# FIND FILES AND DIRECTORIES
+
+# Find Basics
+ # Syntax
+ find [path] [option] [expression]
+ # EXAMPLE
+ find . -name 'forest*'
+
+# Find Options
+- name 'forest*' # search by name
+- iname 'forest*' # case insensitive search by name
+type f / type d # search by type
+-type d -iname 'forest*' # combine options
+
+# Paths
+../forests # relative file paths
+- # current directory
+.. # parent directory
+~ # home directory
+/ # root directory
