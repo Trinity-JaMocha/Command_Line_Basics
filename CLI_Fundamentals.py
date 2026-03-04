@@ -54,3 +54,23 @@ NB: Make sure to use everything you have learned so far: 'pwd', 'ls', 'cd', '..'
 # 1 --- pwd -- ls -- cd geography_game -- ls
 # 2 --- cd forests -- pwd -- ls - ls .. -- cd .. -- cd ../.. (take 2 levels ups) # looking for files continues...
 # 3 --- clear
+
+--------------------------------------------------
+
+# CREATE AND DELETE FILES
+
+touch = # CREATE -- The most common use is to quickly generate a new, empty file without opening a text editor.
+# EXAMPLE -- touch filename.txt
+
+rm = # DELETE -- used to permanently delete files and directories from the filesystem.
+# EXAMPLE -- rm mountains.txt
+
+///////////////
+
+Challenge: Create & delete files
+1. Find the file "virus.exe" and delete it. Lists the contents of the parent directory of "virus.exe" to check that the file was deleted correctly.
+2. Inside "geography_game", create a new file called "rules.txt", and list the contents of "geography_game".
+
+Hint: What should you always do as the first thing before typing any other commands?
+
+# TIPS = can open a new terminal to look for other files as well!!!
