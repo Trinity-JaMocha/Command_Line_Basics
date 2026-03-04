@@ -74,3 +74,21 @@ Challenge: Create & delete files
 Hint: What should you always do as the first thing before typing any other commands?
 
 # TIPS = can open a new terminal to look for other files as well!!!
+
+-----------------------------------------
+
+# CREATE AND DELETE DIRECTORIES
+
+mkdir = # (make directories) -- EXAMPLE -- mkdir cities 
+rmdir = # (remove directories) -- EXAMPLE -- rmdir cities (only works if directory is empty)
+rm -r cities = # if directory not empty use rm -r
+
+/////////////////////////
+
+Challenge: Create & delete directories
+1. Find and delete the directory called "family_photos_1988". List the contents of the parent directory of "family_photos_1988" to check that this directory was deleted correctly.
+2. Inside "geography_game", create a new directory called "cities". List the contents of "geography_game" to check that "cities" was created correctly.
+
+# Use cd .. to go back to previous step and then ls to list details
+
+------------------------------------------------------
