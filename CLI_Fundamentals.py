@@ -92,3 +92,22 @@ Challenge: Create & delete directories
 # Use cd .. to go back to previous step and then ls to list details
 
 ------------------------------------------------------
+
+# WRITE TO FILES
+
+echo = # a fundamental shell command used to display a line of text or a string on the standard output
+ # EXAMPLE -- echo 'Hello World!' # prints 'Hello World!'
+
+# Redirect Output
+# If hello.txt does not exist, echo will create a file
+# CREATE A FILE w/ echo
+echo 'Hello, World' > hello.txt # prints 'Hello, World' to the file hello.txt
+
+///////////////////////////
+Main challenge: Write to files
+1. Inside "geography_game", create a new directory called "about_the_game".
+2. Write the string 'AB, CEO and creative genius' to a new file called "team_members.txt". This file should be placed inside "about_the_game".
+3. Append the string '<your initials>, hard-working intern' to the file "team_members.txt".
+4. Open the file in the sidebar to check that everything went well.
+
+Important: Wrap your strings in single quotes.
