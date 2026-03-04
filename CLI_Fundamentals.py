@@ -135,3 +135,7 @@ Challenge: Read from files
 2. Read the contents of "external_people.txt" again, but this time, redirect and append it to "team_members.txt".
 3. Print the contents of "team_members.txt" to the terminal to check that everything went well.
 4. Delete "external_people.txt".
+
+# 1 -- cd geography/cities
+
+--------------------------------------------------------
