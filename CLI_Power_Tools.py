@@ -68,3 +68,16 @@ type f / type d # search by type
 .. # parent directory
 ~ # home directory
 / # root directory
+
+-------------------------------------------------
+
+# ASIDE: KILL A PROCESS
+
+# Terminating a process
+Ctrl + C: # This is the standard and most common way to gracefully terminate the program running in the current, 
+ #active terminal session. It sends a SIGINT (interrupt) signal, allowing the process to perform cleanup before exiting.
+
+# When to terminate a process
+ # when it is unresponsive, consuming excessive system resources, or behaving maliciously or unexpectedly.
+
+---------------------------------------------------
