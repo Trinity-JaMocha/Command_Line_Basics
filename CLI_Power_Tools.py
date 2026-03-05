@@ -81,3 +81,20 @@ Ctrl + C: # This is the standard and most common way to gracefully terminate the
  # when it is unresponsive, consuming excessive system resources, or behaving maliciously or unexpectedly.
 
 ---------------------------------------------------
+
+# RENAME, MOVE AND COPY
+
+# Rename
+mv old_name new_name # syntax
+mv file1.txt newfile.txt # EXAMPLE
+
+# Move
+mv name location # syntax # if the location does not exist, mv will rename the item instead of moving it
+mv capitals.txt geography_game/cities # EXAMPLE
+
+# Copy
+cp original name copy name # syntax
+cp team.txt team_backup.txt # copy file EXAMPLE
+cp -r cities cities_backup # copy directory
+
+------------------------------------------------------
