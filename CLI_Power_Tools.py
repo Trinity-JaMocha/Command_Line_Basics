@@ -98,3 +98,22 @@ cp team.txt team_backup.txt # copy file EXAMPLE
 cp -r cities cities_backup # copy directory
 
 ------------------------------------------------------
+
+# SEARCH IN FILES
+
+grep pattern file(s) # syntax
+grep 'CEO' team.txt # EXAMPLE
+AB, and CEO and creative genius # output
+
+# Seach Options
+grep option pattern file(s) # syntax
+grep -n ',' team* # EXAMPLE -- -n adds numbers
+team.txt:1:AB, and CEO and creative genius # output
+team.txt:2:NN, hard-working intern # output
+
+# Search Recursively
+grep -r pattern directory # syntax
+grep -r  ',' . # EXAMPLE
+# every line that has a comma in every file in the current directory or subdirectory at any depth # output
+
+---------------------------------------------------------
