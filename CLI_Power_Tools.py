@@ -117,3 +117,14 @@ grep -r  ',' . # EXAMPLE
 # every line that has a comma in every file in the current directory or subdirectory at any depth # output
 
 ---------------------------------------------------------
+
+# REPLACE CONTENT IN FILES
+
+The basic syntax for find and replace with sed is sed 's/old_text/new_text/g' filename # syntax
+
+# Replacement Options
+sed 's/pattern/replacement/[option(s)]' file # syntax
+
+# Replacement Output
+sed 's/,/:/' team*.txt > colon_team.txt # syntax
+sed 's/foo/bar/g' input.txt > output.txt # google syntax example
