@@ -144,3 +144,25 @@ Count characters only: wc -m filename
 Count bytes only: wc -c filename
 
 -------------------------------------------------
+
+# SORT FILE CONTENTS pt. 1
+
+# Sort file contents
+sort filename	# option 
+Sort alphabetically (ascending) # description
+sort list.txt # EXAMPLE
+
+//////////////////////////////////
+
+# Common Sorting Options
+
+Option 	Description	Example
+sort filename	Sort alphabetically (ascending)	sort list.txt
+-r	Sort in reverse (descending) order	sort -r list.txt
+-n	Sort numerically (interprets data as numbers)	sort -n numbers.txt
+-nr	Sort numerically in reverse (largest first)	sort -nr numbers.txt
+-u	Sort and remove duplicate lines (unique)	sort -u list.txt
+-f	Sort case-insensitively (ignores character case)	sort -f list.txt
+-k	Sort by a specific column/field number	sort -k2 data.txt (sort by the 2nd field)
+
+-------------------------------------------------------------
