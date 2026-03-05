@@ -166,3 +166,10 @@ sort filename	Sort alphabetically (ascending)	sort list.txt
 -k	Sort by a specific column/field number	sort -k2 data.txt (sort by the 2nd field)
 
 -------------------------------------------------------------
+
+# SORT FILE CONTENTS pt. 2
+
+cmd 1 | cmd 2 # syntax
+sort team_members.txt | uniq # EXAMPLE
+
+--------------------------------------------------------------
