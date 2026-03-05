@@ -128,3 +128,19 @@ sed 's/pattern/replacement/[option(s)]' file # syntax
 # Replacement Output
 sed 's/,/:/' team*.txt > colon_team.txt # syntax
 sed 's/foo/bar/g' input.txt > output.txt # google syntax example
+
+----------------------------------------------------------
+
+# COUNT VALUES IN FILES
+
+# Count basics
+wc filename # syntax
+wc team.txt # EXAMPLE
+
+# Count Options
+Count lines only: wc -l filename
+Count words only: wc -w filename
+Count characters only: wc -m filename
+Count bytes only: wc -c filename
+
+-------------------------------------------------
